@@ -2,6 +2,6 @@
 
 void Log(const std::string message);
 void InitLog();
-void LogEach(const std::string message);
+void LogEach(const std::string message, int repitition);
 void Log(const char);
-void LogMult(const std::string message, const int i);
+void Repeat(const std::string message, const int i);
