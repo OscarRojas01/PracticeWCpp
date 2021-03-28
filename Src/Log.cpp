@@ -14,7 +14,7 @@ void LogEach(const std::string message, int repitition) {
 }
 
 void Repeat(const std::string message, const int i) {
-	for (int k = 1; k < i; k++) {
+	for (int k = 0; k < i; k++) {
 		std::cout << message << std::endl;
 	}
 }
@@ -22,7 +22,7 @@ void Repeat(const std::string message, const int i) {
 void Log(const std::string message) {
 	std::cout << message << std::endl;
 }
+
 void Log(const char symbol) {
 	std::cout << symbol << std::endl;
 }
-
